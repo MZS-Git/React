@@ -1,0 +1,45 @@
+#list{
+    background-color: rgb(98, 123, 86);
+    color: rgb(51, 43, 3);
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-top:20px;
+    width: 62%;
+    height: 40px;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow: scroll;
+    overflow-wrap: break-word;
+    
+}
+
+#listPara{
+
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 3px;
+    position: relative;
+    
+   
+   
+}
+
+#list:hover{
+    background-color:rgb(51, 43, 3) ;
+    color: aliceblue;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#trashIcon{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    margin: 2px;
+}
+
+#trashIcon:hover{
+    color: red;
+    cursor: pointer;
+}

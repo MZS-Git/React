@@ -1,0 +1,65 @@
+#formBackground{
+
+  background-color:rgb(245,212 ,155);
+  height: 500px;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 8%;
+  overflow-y: scroll;
+  
+}
+
+body{
+  background-color: rgb(51, 43, 3);
+}
+
+#inputText{
+  background-color: transparent;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: solid;
+  border-color: rgb(98, 123, 86);
+  height: 40px;
+  width: 250px;
+  margin-left: 140px;
+  margin-top: 20px;
+  font-size: medium;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ 
+  
+}
+
+#inputText:focus{
+    outline: none;
+}
+
+#inputText:hover{
+  border-color: rgb(215, 75, 62);;
+  border-width: thick;
+}
+
+#inputText::placeholder{
+  color: rgb(51, 43, 3);
+}
+
+#addItemBtn{
+  background-color: rgb(98, 123, 86);
+  color: rgb(51, 43, 3);
+  font-size: medium;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border :none;
+  margin-top: 20px;
+  height: 40px;
+  width: 200px;
+  margin-left: 20px;
+}
+#addItemBtn:hover{
+  background-color: rgb(215, 75, 62);
+  color: aliceblue;
+  
+}
+
+#addItemBtn:focus{
+  outline: none;
+}
